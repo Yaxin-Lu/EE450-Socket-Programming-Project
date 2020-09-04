@@ -3,7 +3,7 @@ Simulation of a covid-19 tesing application process
 
 This is the repository collects the code of 2020 Summer EE450 Socket Programming Project. The project is C/C++ based and aims to simulate a covid-19 tesing application process with TCP and UDP.
 
-Project requirements:
+## Project requirements:
 
 In this project i will simulate a covid-19 tesing application process. This process involves the USC students who apply for covid-19 virus testing, the USC Health Center that manages the testing, and the different hospitals that will provide students the chances to get the test. The communication among the USC students, health center and hospitals are performed over TCP and UDP sockets in a network with a client-server architecture.
 
