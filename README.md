@@ -13,13 +13,13 @@ The project has 2 major phases:
 
 ## what i have done
 I have already finished requires phases in description:
-# 1. phase 1 
+# 1.phase 1 
 all communications are through TCP sockets. 
 create 3 runnable client as 3 hospitals, and 1 server as healthcenter. Using fork() to deal with concurrent processing.
-# 2. phase 2A 
+# 2.phase 2A 
 In phase 2 of this project, each student sends his/her application to the USC health center through TCP connections. SO create 5  runnable client as 5 students.
 When the USC health center receives all the packets from a student, it searches his/her interested department in the file or the array/linked list that stored the information of departments. the USC health center replies with number 0 to the student whose application is invalid.
 
-# 3.p phase 2B
+# 3.phase 2B
 the USC health center uses UDP connections to communicate with the hospitals and the students. So created a UDP sockect as healthcenter, and 5 student UDP sockects, and a 3 sockects as 3 hospitals.  
 Implement the communication between hospitals and healthcenter, students and healthcenter.
