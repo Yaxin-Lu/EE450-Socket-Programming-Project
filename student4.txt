@@ -1,0 +1,5 @@
+﻿Symptom:4
+Interest1:B2
+Interest2:A2
+Interest3:C3
+
